@@ -3,6 +3,7 @@ const bot = new Discord.Client();
 
 bot.on(`ready`, () => {
   console.log(`bot is online`);
+  bot.user.setStatus('invisible');
 });
 
 
