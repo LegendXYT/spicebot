@@ -1,0 +1,17 @@
+{
+  "name": "jsbot",
+  "version": "1.0.0",
+  "description": "my discord bot",
+  "main": "spice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node spice.js"
+  },
+  "author": "Legend X",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ms": "^2.1.1",
+    "weather-js": "^2.0.0"
+  }
+}
